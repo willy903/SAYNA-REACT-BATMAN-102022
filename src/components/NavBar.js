@@ -5,8 +5,8 @@
 
  function NavBar() {
      return ( 
-        <nav className="navbar navbar-expand-lg bg-dark">
-  <div className="container">
+        <nav className="navbar navbar-expand-lg py-0">
+  <div className="contant d-flex justify-content-between px-4 bordur">
     <NavLink to={'home'} className="navbar-brand">
       <img src={logoHome} alt="" />
     </NavLink>

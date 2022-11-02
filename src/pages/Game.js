@@ -5,7 +5,7 @@ import AsideRight from '../components/AsideRight';
 import GameQuestion1 from '../components/GameComponents/GameQuestion1';
 function Game() {
   return (
-    <>
+    <div className='bg_ajust'>
     <AsideRight/>
       <div className="play_presentation">
         <h1 className="title_batman">LET’S PLAY A <br/> LiTTLE GAME...</h1>
@@ -17,7 +17,7 @@ function Game() {
     <div className='text-center'>
             <button className="quiz_btn">DÉMARRER LE QUIZ</button>
     </div>
-    </>
+    </div>
     
   )
 }

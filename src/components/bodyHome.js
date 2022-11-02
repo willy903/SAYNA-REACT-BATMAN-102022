@@ -22,11 +22,10 @@ import iconPlayer from '../assets/logos/icon_player.png'
 
 
 
-
 import '../styles/BodyHome.css';
 function bodyHome() {
   return (
-    <>
+    <div className='bg_add'>
         <div className="allBorder">
         <div className="container_a">
             <p className="container_paragraphe">
@@ -265,7 +264,7 @@ function bodyHome() {
             </form>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 

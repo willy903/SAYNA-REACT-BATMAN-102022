@@ -14,16 +14,25 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "rajdhani" !important;
-    color: white !important;
-    background-color: black !important;
-}
-
 button {
     padding: 10px;
     color: white;
     border: none;
     background: rgb(198, 198, 198);
     background: linear-gradient(138deg, rgba(198, 198, 198, 1) 0%, rgba(121, 9, 17, 1) 73%);
+}
+
+h1 {
+    font-family: rajhdani;
+    color: #fff;
+}
+
+p {
+    font-family: spaceGrotesk;
+    color: #fff;
+}
+
+h6 {
+    font-family: rajhdani;
+    color: #fff;
 }

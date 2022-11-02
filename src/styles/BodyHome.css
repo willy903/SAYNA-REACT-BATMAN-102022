@@ -1,3 +1,10 @@
+.bg_add {
+    background: url(../assets/Home/Bathome1.png);
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
 .container_a a,
 .item_actor .acteur {
     background: linear-gradient(123deg, rgba(237, 222, 191, 0.5) 0%, rgba(137, 0, 9, 0.5) 90%);
@@ -83,21 +90,6 @@ textarea {
 
  :root {
     scroll-behavior: smooth;
-}
-
-h1 {
-    font-family: rajhdani;
-    color: #fff;
-}
-
-p {
-    font-family: spaceGrotesk;
-    color: #fff;
-}
-
-h6 {
-    font-family: rajhdani;
-    color: #fff;
 }
 
 .container_a {
