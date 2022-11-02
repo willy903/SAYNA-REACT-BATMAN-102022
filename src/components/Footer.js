@@ -7,6 +7,7 @@ import logo_41 from '../assets/logos/logo_4.1.png';
 import logo_42 from '../assets/logos/logo_4.2.png';
 import logo_5 from '../assets/logos/logo_5.png';
 import '../styles/footer.css';
+import { NavLink } from 'react-router-dom';
  
 function Footer() {
   return (
@@ -18,23 +19,23 @@ function Footer() {
       récents. Version Nolan & Snyder & Reeves</span>
     </div>
     <div className="social-footer mt-3">
-      <a className="social-item hoveryellow">
+      <NavLink href='#' className="social-item hoveryellow">
         <img width="4%" src={logo_1} alt="" />
         <img src={logo_2} alt="" />
         <img width="4%" src={logo_3} alt="" />
-      </a>
-      <a className="social-item"
+      </NavLink>
+      <NavLink href='#' className="social-item"
         ><img
           className="hoveryellow"
           src={logo_41}
           alt=""
-      /></a>
-      <a className="social-item"
+      /></NavLink>
+      <NavLink href='#' className="social-item"
         ><img className="hoveryellow" src={logo_42} alt=""
-      /></a>
-      <a className="social-item"
+      /></NavLink>
+      <NavLink href='#' className="social-item"
         ><img className="hoveryellow" src={logo_5} alt=""
-      /></a>
+      /></NavLink>
     </div>
   </div>
 </footer>
