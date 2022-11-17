@@ -1,7 +1,10 @@
-import React from 'react';
+import React  from 'react';
+import Products from '../components/products';
+
 import '../styles/eshop.css';
 
 function Eshop() {
+
   return (
     <>
       <section id="hero">
@@ -11,7 +14,15 @@ function Eshop() {
           </div>
         </div>
       </section>
-      <h1>Eshop</h1>
+      <div className='row px-0 mx-0'>
+          <div className="col-3 bg-primari">
+            filter
+          </div>
+          <div className="col-9 pg-danger">
+            <Products></Products>
+          </div>
+        </div>
+      
     </>
   )
 }
