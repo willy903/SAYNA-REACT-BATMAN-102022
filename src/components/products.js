@@ -13,7 +13,7 @@ useEffect(()=>{
     .catch(err =>{
         console.log(err)
     })
-})
+},[])
   return (
     <div>
       <div className="container-fluid d-flew flex-row">

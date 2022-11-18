@@ -19,21 +19,21 @@ function Footer() {
       récents. Version Nolan & Snyder & Reeves</span>
     </div>
     <div className="social-footer mt-3">
-      <NavLink href='#' className="social-item hoveryellow">
+      <NavLink to='#' className="social-item hoveryellow">
         <img width="4%" src={logo_1} alt="" />
         <img src={logo_2} alt="" />
         <img width="4%" src={logo_3} alt="" />
       </NavLink>
-      <NavLink href='#' className="social-item"
+      <NavLink to='#' className="social-item"
         ><img
           className="hoveryellow"
           src={logo_41}
           alt=""
       /></NavLink>
-      <NavLink href='#' className="social-item"
+      <NavLink to='#' className="social-item"
         ><img className="hoveryellow" src={logo_42} alt=""
       /></NavLink>
-      <NavLink href='#' className="social-item"
+      <NavLink to='#' className="social-item"
         ><img className="hoveryellow" src={logo_5} alt=""
       /></NavLink>
     </div>
